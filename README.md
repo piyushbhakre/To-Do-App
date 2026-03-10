@@ -44,9 +44,12 @@ lib/
     <td align="center"><b>Home</b></td>
   </tr>
   <tr>
-    <td><img src="screenshots/01_signup.png" alt="Signup Screen" width="240"/></td>
-    <td><img src="screenshots/02_login.png" alt="Login Screen" width="240"/></td>
-    <td><img src="screenshots/03_home.png" alt="Home Screen" width="240"/></td>
+    <td><img src="<img width="1080" height="2340" alt="flutter_01" src="https://github.com/user-attachments/assets/db4a2808-6727-4000-9e92-c804c70583b9" />
+" alt="Signup Screen" width="240"/></td>
+    <td><img src="<img width="1080" height="2340" alt="flutter_02" src="https://github.com/user-attachments/assets/2ea6d232-7acc-4a23-8466-db6f8531244d" />
+" alt="Login Screen" width="240"/></td>
+    <td><img src="<img width="1080" height="2340" alt="flutter_03" src="https://github.com/user-attachments/assets/a17cb342-100a-46d2-84d1-c90241329eaa" />
+" alt="Home Screen" width="240"/></td>
   </tr>
   <tr>
     <td align="center"><b>Add Task</b></td>
@@ -54,9 +57,12 @@ lib/
     <td align="center"><b>Task Completed</b></td>
   </tr>
   <tr>
-    <td><img src="screenshots/04_add_task.png" alt="Add Task Dialog" width="240"/></td>
-    <td><img src="screenshots/05_edit_task.png" alt="Edit Task Dialog" width="240"/></td>
-    <td><img src="screenshots/06_task_completed.png" alt="Completed Task State" width="240"/></td>
+    <td><img src=<img width="1080" height="2340" alt="flutter_01" src="https://github.com/user-attachments/assets/093588ec-9499-4cfd-83d5-fa3a80603555" />
+"" alt="Add Task Dialog" width="240"/></td>
+    <td><img src="<img width="1080" height="2340" alt="flutter_02" src="https://github.com/user-attachments/assets/03bc4d40-9ff1-4d8c-9d3c-7fb804f70794" />
+" alt="Edit Task Dialog" width="240"/></td>
+    <td><img src="<img width="1080" height="2340" alt="flutter_03" src="https://github.com/user-attachments/assets/04b0f6b8-d327-4630-934e-5c0136a2fdb9" />
+" alt="Completed Task State" width="240"/></td>
   </tr>
 </table>
 
