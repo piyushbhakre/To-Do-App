@@ -1,17 +1,67 @@
-# herody_assignment
+# Herody Assignment - Flutter To-Do App
 
-A new Flutter project.
+## What This App Does
+This app is a Firebase-powered To-Do application built with Flutter.
 
-## Getting Started
+Users can:
+- Sign up and log in using Firebase Authentication (email/password)
+- Stay logged in across app restarts
+- Create tasks
+- Edit tasks
+- Mark tasks as completed/incomplete
+- Delete tasks
+- View all personal tasks in a clean responsive UI
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Firebase Authentication
+- Firebase Realtime Database (REST API via `dio`)
+- Cloud Firestore (user profile details)
+- MVVM-style separation with `core/services` and feature viewmodels
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure (High Level)
+```text
+lib/
+  core/
+    services/
+    security/
+    utils/
+    constants/
+  features/
+    auth/
+      signup/
+      login/
+    home/
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Screenshot Gallery (3x2)
+> Put your 6 app screenshots inside a `screenshots/` folder using the same names below.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+  <tr>
+    <td align="center"><b>Signup</b></td>
+    <td align="center"><b>Login</b></td>
+    <td align="center"><b>Home</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/01_signup.png" alt="Signup Screen" width="240"/></td>
+    <td><img src="screenshots/02_login.png" alt="Login Screen" width="240"/></td>
+    <td><img src="screenshots/03_home.png" alt="Home Screen" width="240"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Add Task</b></td>
+    <td align="center"><b>Edit Task</b></td>
+    <td align="center"><b>Task Completed</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/04_add_task.png" alt="Add Task Dialog" width="240"/></td>
+    <td><img src="screenshots/05_edit_task.png" alt="Edit Task Dialog" width="240"/></td>
+    <td><img src="screenshots/06_task_completed.png" alt="Completed Task State" width="240"/></td>
+  </tr>
+</table>
+
+## Run Locally
+```bash
+flutter pub get
+flutter run
+```
